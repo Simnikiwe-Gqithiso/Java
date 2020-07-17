@@ -1,0 +1,24 @@
+import java.util.Scanner; // import the Scanner class
+ class MyClass {
+  public static void main(String[] args) {
+   Scanner myDetails = new Scanner(System.in);
+    String Name,DOB,address ; 
+    int number , pnumber  ;
+    
+   System.out.println("Enter Name and Surname"); 
+   Name = myDetails.nextLine();
+   System.out.println("Enter your cellphone number");
+   number = myDetails.nextInt();
+   System.out.println("Enter your parent's contact number");
+   pnumber = myDetails.nextInt();
+   System.out.println("Enter your Date of Birth");
+   DOB = myDetails.nextLine();
+   System.out.println ("Enter your physical address");
+   address = myDetails.nextLine();
+   System.out.println("Your name is: " + Name); 
+   System.out.println("Your number is: "+ number);
+   System.out.println ("Your parent's contact number is : " + pnumber);
+   System.out.println("Your date of birth is :" + DOB);
+   System.out.println("Your Physical Address is : " + address);
+   }
+    }
